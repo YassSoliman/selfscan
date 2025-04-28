@@ -322,6 +322,10 @@ body._lock {
 }
 .header__logo {
   margin-right: auto;
+  height: 3rem;
+}
+.header__logo img {
+  height: 100%;
 }
 @media (max-width: 768px) {
   .header__logo img {
@@ -436,11 +440,6 @@ body._lock {
 @media (any-hover: hover) {
   .menu-header__link:not(.button):hover {
     color: #ac000a;
-  }
-}
-@media (min-width: 768px) {
-  .menu-header__link:not(.button) {
-    padding-bottom: 0.875rem;
   }
 }
 .menu-header__link._active {
