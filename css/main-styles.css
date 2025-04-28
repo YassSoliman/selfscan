@@ -124,7 +124,7 @@ body._lock {
 }
 
 [class*=__container] {
-  max-width: 1440px;
+  max-width: 90rem;
   margin: 0 auto;
 }
 
@@ -215,7 +215,7 @@ body._lock {
 }
 
 .body {
-  padding: 0 calc(0.9375rem + 6.6875rem * (100vw - 20rem) / 70);
+  padding: 0 min(calc(1rem + 7.36vw), 7.625rem);
   margin: 0 auto;
 }
 
