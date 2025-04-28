@@ -770,11 +770,14 @@ body._lock {
 }
 .how-works__items {
   counter-reset: number;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15.625rem, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
+  justify-content: center;
 }
 .how-works__item {
+  flex: 0 1 calc(33.333% - 1.33rem);
+  min-width: 15.625rem;
   border-radius: 0.5rem 0.5rem 0 0;
   overflow: hidden;
 }
