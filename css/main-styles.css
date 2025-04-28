@@ -299,7 +299,9 @@ body._lock {
   border-radius: 28px;
   padding-block: 30px;
   padding-inline: 40px;
-  background: #fff;
+  background: #fffc;
+  backdrop-filter: blur(20px);
+  border: 1px solid #e6e6e6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
