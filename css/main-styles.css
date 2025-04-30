@@ -348,6 +348,7 @@ body._lock {
 .header__logo {
   margin-right: auto;
   height: 3rem;
+  z-index: 100;
 }
 .header__logo img {
   height: 100%;
@@ -440,7 +441,7 @@ body._lock {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 1rem 2rem;
+    padding: 1rem 3.4375rem;
     gap: 3rem;
     -webkit-box-align: start;
         -ms-flex-align: start;
